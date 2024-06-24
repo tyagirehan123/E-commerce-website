@@ -1,0 +1,31 @@
+
+#Heading{
+    font-family: 'nabla',sans-serif;  
+    font-size: 15vmin;     
+    text-align: center;
+    padding-top: 20vh;
+     
+}
+#quote{
+    color: white;
+    font-size: 3vmin;
+    text-align: center;
+}
+#home1{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/bghome.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 84vh;     
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    grid-gap: 5px;
+    justify-content: space-around;
+}
+.featuredproducts{
+    text-align: center;
+}
+

@@ -1,0 +1,98 @@
+Front End Final project
+        I have tried to make this project as similer and good as requirements
+        I have added all the images used in img folder
+        I have used seperate header and footer and loaded it in every page
+        For the home page i have external css and js but for others pages i have used internal style and js
+        The website is responsive on different devices
+        I have also tried to keep it as simple in colors as i can beacuse adding so many colors starts to itch eyes
+
+//Index.html (HOME)
+        This is out home page
+        It has three sections header body and footer
+        Header and Footer are loaded through js
+        For heading i have used i font from google font
+        I have also applied linear gradient just to reduce opacity of the images
+        I have used Grid to displays featured products having 5 cards in it
+        Each card have Img , body consisiting of title data and a button with btn btn-warning class and a icon from font awesome
+        And to make it responsive i have created i function in js which automatically runs when dectect change in size and hides some cards to make it look better
+        I ave used openheader and openfooter functions to load header and footer in to the page
+
+//Header
+        It consist of two navbars
+        The first navbar is about 50% bootstarp and 50% change by me but second navbar is about mostly by bootstarp
+        both navbars consist of custom css with like padding , margins,size,etc
+        each option is also added with hover effect just to highligh when you go to it
+        i Have used justify conent as center on second nav to make all nav links in middle
+        i have used justify content as space between to make navlink from start to eand with equal gaps
+        First navbar consist of logo title saerch bar login and a cart button to checkout
+        I have used dropdown menu for men and women section to display all items and specifific options as well
+
+//Footer
+        This is footer used in every page
+        I have used flex to create 4 sections and ul in every section to display 1 sections all detail 
+        Each section consist of mens,womans,kids and other links
+        It also consist a p to display copywright claims
+        It also has hover effect on all footer links 
+
+// All products
+        It has three sections header body and footer
+        Header and Footer are loaded through js
+        I ave used openheader and openfooter functions to load header and footer in to the page
+        I have used grid to display produts in this page
+        I have displayed all womans mens and kids clothes in this page
+        Each grid contain 5 cards and a js to remove some cards on change of width
+        Each card have Img , body consisiting of title data and a button with btn btn-warning class and a icon from font awesome
+
+// Womes(All Items,Dress,Skirts,Pants)
+        It has three sections header body and footer
+        Header and Footer are loaded through js
+        I ave used openheader and openfooter functions to load header and footer in to the page
+        I have used grid to display produts in this page
+        Each card have Img , body consisiting of title data and a button with btn btn-warning class and a icon from font awesome
+
+//Mens(All Items,Shirts,Hoodies,Pants) 
+        It has three sections header body and footer
+        Header and Footer are loaded through js
+        I ave used openheader and openfooter functions to load header and footer in to the page
+        I have used grid to display produts in this page
+        Each card have Img , body consisiting of title data and a button with btn btn-warning class and a icon from font awesome
+
+//kids
+        It has three sections header body and footer
+        Header and Footer are loaded through js
+        I ave used openheader and openfooter functions to load header and footer in to the page
+        I have used grid to display produts in this page
+        Each card have Img , body consisiting of title data and a button with btn btn-warning class and a icon from font awesome
+
+//Login 
+        It has three sections header body and footer
+        Header and Footer are loaded through js
+        I ave used openheader and openfooter functions to load header and footer in to the page
+        I have used form to take input as email and password from user
+        I have used flex property to make form at the center
+        I have used media query to make it responsive
+        I have also creater js function to check if id and password are matched as given or not
+
+//Contact
+        It is contact us page
+        It has three sections header body and footer
+        Header and Footer are loaded through js
+        I ave used openheader and openfooter functions to load header and footer in to the page
+        I have used form to take input from user
+        I have used flex property to make form and img align in center
+        I have used media query to make it responsive
+
+//cart
+        This is the checkout page
+        It has three sections header body and footer
+        Header and Footer are loaded through js
+        I ave used openheader and openfooter functions to load header and footer in to the page
+        I have used conatiner with row and coloums to to use grid on the whole data
+        I have created a grid of twi colums with sm-9 and sm-3 size
+        On the second row first coloums i have created another grid of 3 col 
+        On the second grid 3rd colums i have flex to aling + input field and - in one line
+        I have also created 3 js functions
+        Trash js function on click on delete button empties the inner html of col3 and col4 for grid 1
+        plus js function increment the value in input filed as well as it updates the value to cost and total
+        minus js function decrement the value in input field as well as it updates the value of cost and total
+        I have also created a function of checkout which resets the value of input field cost and total and gives alert

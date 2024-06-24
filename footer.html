@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;                    
+            
+        }
+        .footerul{
+            list-style-type: none;
+        }
+        .footer-a{
+            text-decoration: none;
+            color: white;            
+        }
+        .listhead{
+            font-size: larger;
+        }
+        .padding-larger{
+            padding-bottom: 1vmin;
+        }
+        .padding-small{
+            padding-bottom: 0.5vmin;;
+        }
+        .foot{
+            background-image: linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.8));    
+            margin: 0;
+            padding: 0;          
+        }
+        .footer-hr{
+            color: white;
+            width: 80%;
+            
+            
+        }
+        .footer-para{
+            color: white;
+            text-align: center;
+        }
+        @media screen and (max-width: 777px){
+            .footer{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        a.footer-a:hover{
+            background-color: black;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="foot">
+        <br>
+    <div class="footer">
+        <ul class="footerul">
+            <li class="padding-larger"><a class="listhead footer-a" href="Allitemsw.html">Women</a></li>
+            <li class="padding-small"><a href="dress.html" class="footer-a">Dresses</a></li>
+            <li class="padding-small"><a href="pantsw.html" class="footer-a">Pants</a></li>
+            <li class="padding-small"><a href="skirtsw.html" class="footer-a">Skirts</a></li>
+        </ul>
+        <ul class="footerul">
+            <li class="padding-larger"><a class="listhead footer-a" href="Allitemsm.html">Men</a></li>
+            <li class="padding-small"><a href="shirtsm.html" class="footer-a">Shirts</a></li>
+            <li class="padding-small"><a href="pantsm.html" class="footer-a">Pants</a></li>
+            <li class="padding-small"><a href="hoodiesm.html" class="footer-a">Hoodies</a></li>
+        </ul>
+        <ul class="footerul">
+            <li class="padding-larger"><a class="listhead footer-a" href="kids.html">Kids</a></li>            
+        </ul>
+        <ul class="footerul">
+            <li class="padding-larger"><a class="listhead footer-a" href="#">Links</a></li>
+            <li class="padding-small"><a href="index.html" class="footer-a">Home</a></li>
+            <li class="padding-small"><a href="login.html" class="footer-a">Login</a></li>
+            <li class="padding-small"><a href="contact.html" class="footer-a">Connect</a></li>
+        </ul>        
+    </div>
+    <hr class="footer-hr">
+    <p class="footer-para">Copyright @ThreadUnraveled 2023-24</p><br>
+</div>
+    
+</body>
+</html>
